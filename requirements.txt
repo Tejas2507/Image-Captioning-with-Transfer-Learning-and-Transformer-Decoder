@@ -1,0 +1,10 @@
+tensorflow>=2.10.0
+numpy
+matplotlib
+nltk
+# pycocotools and pycocoevalcap are installed from git, but listed for clarity
+# For specific versions, you might need to install from source.
+# pycocotools==2.0.6
+# pycocoevalcap
+scikit-learn # (Optional, if using train_test_split from sklearn.model_selection)
+tensorflow-addons # (Often a dependency for some Keras/TF features, included if part of your environment)
